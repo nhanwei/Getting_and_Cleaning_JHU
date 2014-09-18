@@ -25,6 +25,8 @@ by calculating variables from the time and frequency domain. See
 # Code Book
 ============================
 
+**Pre-processed**
+
 * test_sub:           list of subjects in test set    
 * test_X:             data frame of measurements taken in test set            
 * test_y:             list of activities done by subjects in test set             
@@ -33,6 +35,9 @@ by calculating variables from the time and frequency domain. See
 * train_y:            list of activities done by subjects in training set             
 * features:           data frame containing measurement names                
 * activity_labels:    data frame containing activity names
+ 
+**Processed**
+
 * combined_sub:       combination of test_sub and train_sub by row
 * combined_X:         combination of test_X and train_X by row
 * combined_y:         combination of test_y and train_y by row
