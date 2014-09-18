@@ -25,7 +25,7 @@ by calculating variables from the time and frequency domain. See
 # Code Book
 ============================
 
-**Pre-processed**
+**Pre-processed: The following 8 items were simply read from the test set, training set, features and activity_labels using read.table**
 
 * test_sub:           list of subjects in test set    
 * test_X:             data frame of measurements taken in test set            
@@ -38,10 +38,10 @@ by calculating variables from the time and frequency domain. See
  
 **Processed**
 
-* combined_sub:       combination of test_sub and train_sub by row
-* combined_X:         combination of test_X and train_X by row
-* combined_y:         combination of test_y and train_y by row
-* trimmed_X:          data frame of mean and standard deviation for each measurement extracted from combined_X
-* labelled_y:         replaced numbers in combined_y with activity labels
-* tidy1:              combinations of combined_sub, labelled_y and trimmed_X
-* tidy2:              final tidy set for submission, with the **average of each variable for each activity and each subject.**
+* combined_sub:       combination of **test_sub** and **train_sub** by **row**
+* combined_X:         combination of **test_X** and **train_X** by **row**
+* combined_y:         combination of **test_y** and **train_y** by **row**
+* trimmed_X:          data frame of **mean** and **standard deviation** for each measurement extracted from **combined_X**
+* labelled_y:         replaced **numbers** in combined_y with **activity labels**
+* tidy1:              combinations of **combined_sub**, **labelled_y** and **trimmed_X** by **columns**
+* tidy2:              **final** tidy set for submission, with the **average of each variable for each activity and each subject.**
