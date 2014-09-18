@@ -39,4 +39,4 @@ by calculating variables from the time and frequency domain. See
 * trimmed_X:          data frame of mean and standard deviation for each measurement extracted from combined_X
 * labelled_y:         replaced numbers in combined_y with activity labels
 * tidy1:              combinations of combined_sub, labelled_y and trimmed_X
-* tidy2:              final tidy set for submission, with the average of each variable for each activity and each subject.
+* tidy2:              final tidy set for submission, with the **average of each variable for each activity and each subject.**
