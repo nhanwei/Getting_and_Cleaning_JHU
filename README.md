@@ -81,3 +81,4 @@ One of the most exciting areas in all of data science right now is wearable comp
 
 * write.table(tidy2, "./tidy2.txt", row.name=FALSE)
 
+#The End
