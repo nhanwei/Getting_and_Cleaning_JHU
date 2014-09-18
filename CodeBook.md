@@ -1,10 +1,5 @@
-Information about the variables (including units!) in the data 
-set not contained in the tidy data
-Information about the summary choices you made
-Information about the experimental study design you used
-
-
-################################# Study Design #################################
+#Study Design
+============================
 
 The experiments have been carried out with a group of 30 volunteers within an 
 age bracket of 19-48 years. Each person performed six activities (WALKING, 
@@ -26,29 +21,22 @@ cutoff frequency was used. From each window, a vector of features was obtained
 by calculating variables from the time and frequency domain. See 
 'features_info.txt' for more details. 
 
-################################## Code Book ##################################
+============================
+# Code Book
+============================
 
-test_sub:           list of subjects in test set    
-test_X:             data frame of measurements taken in test set            
-test_y:             list of activities done by subjects in test set             
-
-train_sub:          list of subjects in training set    
-train_X:            data frame of measurements taken in training set            
-train_y:            list of activities done by subjects in training set             
-
-features:           data frame containing measurement names                
-activity_labels:    data frame containing activity names
-
-combined_sub:       combination of test_sub and train_sub by row
-combined_X:         combination of test_X and train_X by row
-combined_y:         combination of test_y and train_y by row
-
-trimmed_X:          data frame of mean and standard deviation for each 
-                    measurement extracted from combined_X
-
-labelled_y:         replaced numbers in combined_y with activity labels
-
-tidy1:              combinations of combined_sub, labelled_y and trimmed_X
-
-tidy2:              final tidy set for submission, with the average of each 
-                    variable for each activity and each subject.
+* test_sub:           list of subjects in test set    
+* test_X:             data frame of measurements taken in test set            
+* test_y:             list of activities done by subjects in test set             
+* train_sub:          list of subjects in training set    
+* train_X:            data frame of measurements taken in training set            
+* train_y:            list of activities done by subjects in training set             
+* features:           data frame containing measurement names                
+* activity_labels:    data frame containing activity names
+* combined_sub:       combination of test_sub and train_sub by row
+* combined_X:         combination of test_X and train_X by row
+* combined_y:         combination of test_y and train_y by row
+* trimmed_X:          data frame of mean and standard deviation for each measurement extracted from combined_X
+* labelled_y:         replaced numbers in combined_y with activity labels
+* tidy1:              combinations of combined_sub, labelled_y and trimmed_X
+* tidy2:              final tidy set for submission, with the average of each variable for each activity and each subject.
